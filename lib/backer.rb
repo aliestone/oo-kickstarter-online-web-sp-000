@@ -3,8 +3,12 @@ class Backer
   attr_accessor :name
 
   def initalize(name)
-    @backer = self.name
-    @name = name
+  @backers = []
   end
+
+  def add_backer
+    @backers << backer
+  end
+
 
 end
