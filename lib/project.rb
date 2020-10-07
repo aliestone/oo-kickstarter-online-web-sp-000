@@ -3,7 +3,7 @@ attr_accessor :title, :backer, :name
 
   def initalize(title)
     @title = title
-    @backer = name 
+    @name = name
     @backers = []
   end
 
