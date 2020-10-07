@@ -1,6 +1,6 @@
 class Project
 
-  attr_accessor :title, :backer
+  attr_accessor :title,
 
   def initalize(title)
     @title = title
@@ -9,6 +9,7 @@ class Project
 
   def add_backer(backer)
     @backers << backer
+    backer.back_project(self) unless backer.backed_projects.include?(self)
   end
 
 end
