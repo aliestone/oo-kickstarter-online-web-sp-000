@@ -5,4 +5,5 @@ class Backer
   def initalize(name)
     @name = name
   end
-  
+
+end
