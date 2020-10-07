@@ -11,6 +11,7 @@ class Backer
     @backed_projects << project
   end
 
+end
 
 
 
